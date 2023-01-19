@@ -6,7 +6,7 @@ import { UserDto } from './user.dto';
 export class GroupDto extends DtoBase {
   tittle?: string;
 
-  type?: GroupType;
+  type?: string;
 
   content?: ContentDto;
 }
