@@ -9,4 +9,6 @@ export class GroupDto extends DtoBase {
   type?: string;
 
   content?: ContentDto;
+
+  users?: UserDto[];
 }
