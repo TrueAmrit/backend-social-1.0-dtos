@@ -5,7 +5,5 @@ import { DtoBase } from './dtoBase';
 export class GroupDto extends DtoBase {
   tittle?: string;
 
-  type?: GroupType;
-
-  content?: ContentDto;
+  type?: string;
 }

@@ -1,5 +1,6 @@
 import { ContentType } from '../enums/contentType.enum';
 import { DtoBase } from './dtoBase';
+import { GroupDto } from './group.dto';
 import { OptionDto } from './option.dto';
 import { UserDto } from './user.dto';
 
@@ -11,4 +12,5 @@ export class ContentDto extends DtoBase {
   videoUrls?: string;
   users?: UserDto[];
   options?: OptionDto[];
+  groups?: GroupDto[];
 }
