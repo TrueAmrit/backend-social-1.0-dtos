@@ -1,4 +1,5 @@
 import { DtoBase } from './dtoBase';
+import { GroupDto } from './group.dto';
 
 export class UserDto extends DtoBase {
   firstname?: string;
@@ -10,4 +11,6 @@ export class UserDto extends DtoBase {
   phoneNumber?: string;
 
   password?: string;
+
+  groups?: GroupDto[];
 }
